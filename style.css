@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/*this helps to sretch the radial-gradient to the full screen*/
+html {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(rgb(250, 227, 231), rgb(216, 100, 120))
+}
+
+.page-title {
+  font-family: 'Pacifico', cursive;
+  color: pink;
+  font-weight: normal;
+  text-align: center;
+  font-size: 4em;
+}
+
+.game-info-container {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.game-info {
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(251, 236, 238);
+  font-size: 3em;
+}
+
+.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(149, 74, 108);
+  height: 175px;
+  width: 125px;
+}
