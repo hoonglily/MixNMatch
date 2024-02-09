@@ -7,12 +7,12 @@
 /*this helps to sretch the radial-gradient to the full screen*/
 html {
   min-height: 100vh;
-  cursor: url('Assets/Cursors/redheart.png'), auto;
+  cursor: url('https://content.mycutegraphics.com/graphics/hearts/heart-graphic10.png') 5 5, auto;
 }
 
 body {
   margin: 0;
-  background: radial-gradient(rgb(250, 227, 231), rgb(216, 100, 120));
+  background: radial-gradient(rgb(186, 162, 166), rgb(216, 100, 120));
 }
 
 .page-title {
@@ -54,7 +54,7 @@ body {
 }
 
 .card:hover {
-  cursor: url("Assets/Cursors/pinkheart.png"), auto;
+  cursor: url('https://content.mycutegraphics.com/graphics/hearts/heart-graphic10.png'), auto;
 }
 
 .card-face {
