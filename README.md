@@ -5,5 +5,5 @@ This is a mix and match game. Find all matching pairs before the timer runs out.
 ![Alt text](./Assets/Images/preview.gif)
 
 # Credits
-Tutorial of game by Web Dev Simplified: https://www.youtube.com/watch?v=28VfzEiJgy4
+Tutorial of game by Web Dev Simplified: https://www.youtube.com/watch?v=28VfzEiJgy4 <br>
 Images from https://www.mycutegraphics.com/
